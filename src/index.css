@@ -28,7 +28,15 @@ a {
     padding: 14px 25px;
     font-size: 16px;
     border-radius: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     border: none;
     outline: none;
+}
+
+.btn img {
+    width: 20px;
+    margin-left: 10px;
 }

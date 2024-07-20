@@ -23,3 +23,8 @@ nav ul li {
     font-size: 16px;
     cursor: pointer;
 }
+
+.dark-nav {
+    background-color: #212EA0;
+    transition: .5s;
+}

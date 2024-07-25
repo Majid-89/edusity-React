@@ -4,7 +4,7 @@ import DarkArrow from "../../assets/dark-arrow.png"
 
 const Hero = () => {
     return (
-        <div className='hero container'>
+        <div className='hero container' id='hero'>
             <div className="hero-text">
                 <h1>We Ensure better education for a better world</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatibus illo cupiditate tenetur, neque non corporis ipsam. Ut reprehenderit debitis quod, sit alias corrupti magni illo exercitationem reiciendis. Explicabo, ullam hic? Molestiae minus laudantium, porro, a debitis.</p>

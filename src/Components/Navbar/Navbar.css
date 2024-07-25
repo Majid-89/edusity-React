@@ -16,6 +16,10 @@ nav {
     width: 180px;
 }
 
+nav ul .active {
+    background-color: yellow;
+}
+
 nav ul li {
     display: inline-block;
     list-style: none;

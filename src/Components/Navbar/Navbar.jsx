@@ -8,6 +8,13 @@ const Navbar = () => {
     const [sticky, setSticky] = useState(false)
     const [toggleMenu, setToggleMenu] = useState(false)
 
+    // const toggleNavbar = () => {
+    //     if (toggleMenu === true) {
+    //         setToggleMenu(false)
+    //     } else {
+    //         setToggleMenu(true)
+    //     }
+    // }
     useEffect(() => {
         window.addEventListener("scroll", () => {
             if (window.scrollY > 50) {
@@ -37,7 +44,8 @@ const Navbar = () => {
                 <li><Link className="btn" to="contact" smooth={true} offset={-260} duration={500} onClick={() => setToggleMenu(!toggleMenu)}
                 > Contact us</Link></li>
             </ul>
-            <img src={menu_icon} alt="" className='menu-icon' onClick={() => setToggleMenu(!toggleMenu)} />
+            <img src={menu_icon} alt="" className='menu-icon' onClick={() => setToggleMenu(!toggleMenu)}
+            />
         </nav >
     )
 }

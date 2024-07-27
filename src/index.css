@@ -46,6 +46,22 @@ a {
     margin-left: 10px;
 }
 
+/*======= Custom-Scrollbar ======*/
+/* width */
+::-webkit-scrollbar {
+    width: 17px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: #a8a5c0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #212EA0;
+    /* border-radius: 3px; */
+}
 
 /*======= media-query ======*/
 

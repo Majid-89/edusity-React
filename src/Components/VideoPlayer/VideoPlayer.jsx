@@ -7,7 +7,6 @@ const VideoPlayer = ({ setPlayicon, playicon }) => {
     const player = useRef(null)
 
     const closePlayer = (e) => {
-        console.log(e.target)
         if (e.target === player.current) {
             setPlayicon(false)
         }
